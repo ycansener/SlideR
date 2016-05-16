@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:hint="Local Host Ip (192.168.?.?)"
+            android:text="192.168.1.23"
+            android:id="@+id/editTextServerIp" />
+        <Button
+            android:id="@+id/buttonConnect"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Connect" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="Previous Slide" />
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:text="Next Slide" />
+</LinearLayout>
